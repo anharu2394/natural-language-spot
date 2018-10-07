@@ -1,6 +1,6 @@
 export interface State {
   count: number
 }
-export const state: State = { 
-  count: 0
+export const state: State = {
+  count: 0,
 }

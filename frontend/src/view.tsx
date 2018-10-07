@@ -1,12 +1,15 @@
 import { h, View } from "hyperapp"
 import { State } from "./state"
 import { Actions } from "./actions"
+import Home from "./components/home"
+import Header from "./components/header"
+import Footer from "./components/footer"
 
 const view: View<State, Actions> = (state, actions) => (
   <div>
-    <h1>{state.count}</h1>
-    <button onclick={() => actions.down(1)}>-</button>
-    <button onclick={() => actions.up(1)}>+</button>
+    <Header />
+    <Home />
+    <Footer />
   </div>
 )
 
