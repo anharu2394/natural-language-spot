@@ -25,6 +25,14 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'ts-loader'
       },
+      {
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(jpg|png)$/,
+        loaders: 'file-loader?name=[name].[ext]'
+      },
     ]   
   },  
   resolve: {
