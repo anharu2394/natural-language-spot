@@ -2,7 +2,7 @@ import { h, Component } from "hyperapp"
 
 const Footer: Component = () => (
   <div>
-  Footer
+    Footer
   </div>
 )
 
