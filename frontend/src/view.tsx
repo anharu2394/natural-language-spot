@@ -4,6 +4,7 @@ import { Actions } from "./actions"
 import Home from "./components/home"
 import Header from "./components/header"
 import Footer from "./components/footer"
+import "bulma/css/bulma.css"
 
 const view: View<State, Actions> = (state, actions) => (
   <div>
